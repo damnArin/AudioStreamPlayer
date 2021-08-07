@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "AudioStreamPlayer",
+  "description": "This extension plays audio stream from URLs.",
+  "version": "1.0",
+
+  "browser_action":
+  {
+   "default_icon": "pause_icon_2.ico"
+  },
+  
+  "icons":
+  {
+   "128": "pause_icon_2.ico",
+   "32": "play_icon_2.ico"
+  },
+
+  "background":
+  {
+    "persistent": true,
+    "page": "background.html"
+  }
+}
